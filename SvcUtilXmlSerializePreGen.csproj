@@ -1,16 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="dotnet-svcutil.xmlserializer" Version="1.1.0" />
+    <PackageReference Include="dotnet-svcutil.xmlserializer" Version="1.2.0" />
     <PackageReference Include="System.ServiceModel.Http" Version="4.7.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <DotNetCliToolReference Include="dotnet-svcutil.xmlserializer" Version="1.1.0" />
   </ItemGroup>
   
 </Project>
